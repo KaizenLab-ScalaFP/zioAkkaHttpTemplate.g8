@@ -8,6 +8,7 @@ organization := "com.github.kzs"
 name := "ZIOAkkaHTTPWebAppWorkshop"
 version := "0.0.1-SNAPSHOT"
 scalaVersion := "2.13.1"
+mainClass in Compile := Some("com.kzs.lab.ws.MainApp")
 libraryDependencies ++= Seq(
   "dev.zio" %% "zio" % ZioVersion,
   "com.typesafe.akka" %% "akka-http"   % AkkaHttpVersion,
